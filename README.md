@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
@@ -91,3 +92,7 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+=======
+# svelte
+No Virtual DOM-Reactividad de verdad-No más código innecesario.
+>>>>>>> 458024aa36690789d5f901fa22d6199148e8c020
