@@ -1,4 +1,6 @@
 <script>
+  import Button from "./Button.svelte";
+
   let someText = `Frontend Developer`;
   let count = 0;
   let styles = { darkMode: false };
@@ -9,7 +11,6 @@
 
   function toggle() {
     styles.darkMode = !styles.darkMode;
-    console.log(styles.darkMode);
     window.document.body.classList.toggle("dark-mode");
   }
 </script>
@@ -31,8 +32,9 @@
     </p>
   {/if}
 
-  <button on:click={handleClick} role="button">
-    Click {count === 0 ? '' : count}
-  </button>
-  <button on:click={toggle}>DarkMode</button>
+  <Button text="Click" {count} on:click={handleClick} />
+  <Button text="DarkMode" on:click={toggle} />
+  
+  <!-- <button role="button">Click {count === 0 ? '' : count}</button> -->
+  <!-- <button on:click={toggle}>DarkMode</button> -->
 </div>
