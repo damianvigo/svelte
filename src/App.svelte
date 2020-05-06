@@ -1,8 +1,18 @@
 <script>
   import About from "./components/About.svelte";
+  import Text from "./components/Text.svelte";
+  import Person from "./components/Person.svelte";
+
   export let name;
   export let lastName;
+
   let svelteLogo = "https://arepa.s3.amazonaws.com/svelte-logo.png";
+
+  const data = {
+    name: "Damián",
+    lastName: "Vigo",
+    country: "Argentina"
+  };
 </script>
 
 <style>
@@ -13,6 +23,11 @@
 
   :global(:root) {
     --theme-color: purple;
+  }
+
+  :global(body.dark-mode) {
+    background-color: #1d3040;
+    color: #bfc2c7;
   }
 
   main {
@@ -43,5 +58,9 @@
 <main>
   <h1>Hola {name} {lastName}!</h1>
   <About />
+  <Text anotherText="Hola!" />
+  <Text />
+  <!-- <Person name={data.name} lastName={data.lastName} country={data.country} /> -->
+  <Person {...data} />
   <img src={svelteLogo} alt="Svelte" />
 </main>

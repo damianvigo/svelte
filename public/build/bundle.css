@@ -1,4 +1,4 @@
-body{background-color:#f2eee2;color:#0084f6}:root{--theme-color:purple}main.svelte-m6uwbv.svelte-m6uwbv{text-align:center;padding:1em;max-width:240px;margin:0 auto}main.svelte-m6uwbv img.svelte-m6uwbv{width:30%}h1.svelte-m6uwbv.svelte-m6uwbv{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}@media(min-width: 640px){main.svelte-m6uwbv.svelte-m6uwbv{max-width:none}}
+body{background-color:#f2eee2;color:#0084f6}:root{--theme-color:purple}body.dark-mode{background-color:#1d3040;color:#bfc2c7}main.svelte-b650h3.svelte-b650h3{text-align:center;padding:1em;max-width:240px;margin:0 auto}main.svelte-b650h3 img.svelte-b650h3{width:30%}h1.svelte-b650h3.svelte-b650h3{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}@media(min-width: 640px){main.svelte-b650h3.svelte-b650h3{max-width:none}}
 p.svelte-ced8jc{color:var(--theme-color)}
 
 /*# sourceMappingURL=bundle.css.map */
