@@ -16,7 +16,7 @@
   .Photos {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 8px;
   }
 </style>
